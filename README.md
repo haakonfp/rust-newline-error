@@ -2,7 +2,7 @@
 
 the `rust_analyzer` lsp will show a syntax error in a `.rs` file if the file is `[noeol]` - meaning it does not end with a final newline character.
 
-the syntax error is at the end of the file, and simply says "Syntax Error: Unmatched `}`".
+the syntax error is at the end of the file, and simply says "Syntax Error: unmatched `}`".
 Not exactly helpful in diagnosing the actual problem.
 
 in this minimal reproduction, the issue is triggered by the `.editorconfig` file.
